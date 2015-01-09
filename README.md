@@ -10,3 +10,5 @@ Si vous désirez participer participer à l'organisation, voici comment faire:
 
 1. [Ouvrir un compte GitHub](https://github.com/) si vous n'en avez pas un.
 1. Participez !
+
+![](http://media.giphy.com/media/AA1nGh6NaTWX6/giphy.gif)
