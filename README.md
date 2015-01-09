@@ -9,6 +9,6 @@ Ce repository est un support à l'organisation d'un pique-nique de retrouvaille 
 Si vous désirez participer participer à l'organisation, voici comment faire:
 
 1. [Ouvrir un compte GitHub](https://github.com/) si vous n'en avez pas un.
-1. Participez !
+1. [Participez aux dicussions!](https://github.com/comem29/picnic15/issues)
 
 ![](http://media.giphy.com/media/AA1nGh6NaTWX6/giphy.gif)
