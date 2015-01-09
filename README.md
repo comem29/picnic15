@@ -7,4 +7,4 @@ Ce repository est un support à l'organisation d'un pique-nique de retrouvaille 
 Si vous désirez participer participer à l'organisation, voici comment faire:
 
 1. Ouvrir un compte GitHub
-1. Faire une demande d'ajout à l'organization comem29
+1. [Faire une demande d'ajout à l'organization comem29](https://github.com/comem29/picnic15/issues/new)
