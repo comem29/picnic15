@@ -1,4 +1,4 @@
-# picnic15
+# Pique-nique comem+29
 
 Ce repository est un support à l'organisation d'un pique-nique de retrouvaille pour les anciens élèves de la volée comem29.
 [Toutes les discussions sur l'organisation sont visibles ici](https://github.com/comem29/picnic15/issues).
