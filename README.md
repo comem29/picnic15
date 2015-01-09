@@ -1,13 +1,19 @@
 # picnic15
-Organization of an alumni family picnic
 
 Ce repository est un support à l'organisation d'un pique-nique de retrouvaille pour les anciens élèves de la volée comem29.
 [Toutes les discussions sur l'organisation sont visibles ici](https://github.com/comem29/picnic15/issues).
 
 ## Informations
 
-- Date: à détérminer ([doodle](http://doodle.com/y8cqafmtcrxgpe5g), [discussion](/issues/1))
-- Lieu: à détérminer ([discussion](/issues/1))
+**Ca fait 11 ans !**
+
+Et si on se faisait un pique-nique familiale entre anciens comem29 ?
+Le but est de se retrouver dans un esprit bon enfant accompagné de nos familles.
+
+- **Date**: à détérminer
+  - :point_right: Merci de remplir le [doodle](http://doodle.com/y8cqafmtcrxgpe5g) :point_left:
+  - [discussion](https://github.com/comem29/picnic15/issues/1)
+- **Lieu**: à détérminer ([discussion](https://github.com/comem29/picnic15/issues/2))
 
 ## Comment participer ?
 
