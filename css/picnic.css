@@ -416,4 +416,7 @@ html {
   -webkit-font-smoothing: antialiased;
   /* [5] */ }
 
+html {
+  font-family: "freight-text-pro", serif; }
+
 /*# sourceMappingURL=picnic.css.map */
