@@ -1,0 +1,27 @@
+{
+  "name": "picnic15",
+  "version": "0.0.0",
+  "homepage": "https://github.com/comem29/picnic15",
+  "authors": [
+    "Cédric Aellen <cedric.aellen@alienlebarge.ch>"
+  ],
+  "description": "website template",
+  "main": "_sass/main.scss",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-defaults": "~0.2.1",
+    "inuit-functions": "~0.2.0",
+    "inuit-mixins": "~0.2.3",
+    "inuit-normalize": "~3.0.1",
+    "inuit-box-sizing": "~0.2.0",
+    "inuit-page": "~0.2.1"
+  }
+}
