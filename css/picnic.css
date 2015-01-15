@@ -391,6 +391,9 @@ html {
 /*------------------------------------*\
     #BASE
 \*------------------------------------*/
+html {
+  font-family: "freight-text-pro", Georgia, serif; }
+
 /*------------------------------------*\
     #PAGE
 \*------------------------------------*/
@@ -428,8 +431,62 @@ html {
   -webkit-font-smoothing: antialiased;
   /* [5] */ }
 
-html {
-  font-family: "freight-text-pro", Georgia, serif; }
+h1,
+.alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta {
+  font-family: "sketchnote-square", "freight-text-pro", Georgia, serif; }
+
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+/**
+ * Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
+ * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ */
+h1,
+.alpha {
+  font-size: 40px;
+  font-size: 2rem;
+  line-height: 1.5; }
+
+h2,
+.beta {
+  font-size: 32px;
+  font-size: 1.6rem;
+  line-height: 1.875; }
+
+h3,
+.gamma {
+  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 1.25; }
+
+h4,
+.delta {
+  font-size: 20px;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+h5,
+.epsilon {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.875; }
+
+h6,
+.zeta {
+  font-size: 14px;
+  font-size: 0.7rem;
+  line-height: 2.1428571429; }
 
 /*------------------------------------*\
     #OBJECTS
