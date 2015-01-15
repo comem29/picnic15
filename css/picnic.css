@@ -409,7 +409,7 @@ html {
  *    render text using sub-pixel anti-aliasing.
  */
 html {
-  font-size: 1em;
+  font-size: 1.25em;
   /* [1] */
   line-height: 1.5;
   /* [1] */
@@ -429,7 +429,7 @@ html {
   /* [5] */ }
 
 html {
-  font-family: "freight-text-pro", serif; }
+  font-family: "freight-text-pro", Georgia, serif; }
 
 /*------------------------------------*\
     #OBJECTS
@@ -439,7 +439,7 @@ html {
 \*------------------------------------*/
 .container {
   max-width: 750px;
-  padding: 0 24px;
+  padding: 0 30px;
   margin: 0 auto; }
 
 /*------------------------------------*\
