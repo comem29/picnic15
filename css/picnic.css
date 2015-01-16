@@ -513,6 +513,16 @@ h6,
   font-size: 0.7rem;
   line-height: 2; }
 
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+/**
+ * Remove extra vertical spacing when nesting lists.
+ */
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
 a {
   color: #333; }
   a:visited {
@@ -525,6 +535,19 @@ a {
     #OBJECTS
 \*------------------------------------*/
 /*------------------------------------*\
+    #LIST-INLINE
+\*------------------------------------*/
+/**
+ * The list-inline object simply displays a list of items in one line.
+ */
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list-inline > li {
+    display: inline-block; }
+
+/*------------------------------------*\
     #COMPONMENT
 \*------------------------------------*/
 .container {
@@ -535,5 +558,39 @@ a {
 /*------------------------------------*\
     #TRUMPS
 \*------------------------------------*/
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+/**
+ * Margin and padding helper classes. Use these to tweak layout on a micro
+ * level.
+ *
+ * `.(m|p)(t|r|b|l|h|v)(-|+|0) {}` = margin/padding top/right/bottom/left/horizontal/vertical less/more/none
+ */
+/**
+ * Add tiny paddings.
+ */
+.p-- {
+  padding: 7px !important; }
+
+.pt-- {
+  padding-top: 7px !important; }
+
+.pr-- {
+  padding-right: 7px !important; }
+
+.pb-- {
+  padding-bottom: 7px !important; }
+
+.pl-- {
+  padding-left: 7px !important; }
+
+.ph-- {
+  padding-right: 7px !important;
+  padding-left: 7px !important; }
+
+.pv-- {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important; }
 
 /*# sourceMappingURL=picnic.css.map */

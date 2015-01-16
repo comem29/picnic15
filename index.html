@@ -11,15 +11,10 @@ layout: default
 
   <h2>Nouvelles</h2>
 
-  <ul class="post-list">
+  <ul>
     {% for post in site.posts %}
       <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p>
-          {{ post.date | date: "%b %-d, %Y" }}
-        </p>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>, {{ post.date | date: "%b %-d, %Y" }}
       </li>
     {% endfor %}
   </ul>

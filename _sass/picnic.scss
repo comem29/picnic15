@@ -24,11 +24,13 @@
 @import "../bower_components/inuit-page/base.page";
 @import "base.headings";
 @import "../bower_components/inuit-headings/base.headings";
+@import "../bower_components/inuit-lists/base.lists";
 @import "base.links";
 
 /*------------------------------------*\
     #OBJECTS
 \*------------------------------------*/
+@import "../bower_components/inuit-list-inline/objects.list-inline";
 
 
 /*------------------------------------*\
@@ -40,3 +42,5 @@ $base-container-width: 750px;
 /*------------------------------------*\
     #TRUMPS
 \*------------------------------------*/
+$inuit-enable-paddings--tiny:           true;
+@import "../bower_components/inuit-spacing/trumps.spacing";
