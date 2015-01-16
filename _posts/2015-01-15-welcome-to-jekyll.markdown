@@ -9,4 +9,4 @@ Si vous désirez participer à l'organisation de ce pique-nique, il n'y a rien d
 1. [Créez un compte GitHub](https://github.com/) (si vous n'en possédez pas déjà un)
 1. Participez [aux conversations](https://github.com/comem29/picnic15/issues)
 
-Nous utilisons GitHub, car cela permet d'avoir un système de gestion de tâches à moindres frais (gratuit).
+GitHub, nous permet d'utiliser un système de gestion de tâches gratuitement.
