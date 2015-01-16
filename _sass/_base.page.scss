@@ -1,3 +1,5 @@
 html {
   font-family: $base-text-family;
+  font-variant: common-ligatures, oldstyle-nums;
+  font-feature-settings: "kern", "liga", "onum";
 }

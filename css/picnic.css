@@ -417,7 +417,9 @@ ul, ol, dd {
     #BASE
 \*------------------------------------*/
 html {
-  font-family: "freight-text-pro", Georgia, serif; }
+  font-family: "freight-text-pro", Georgia, serif;
+  font-variant: common-ligatures, oldstyle-nums;
+  font-feature-settings: "kern", "liga", "onum"; }
 
 /*------------------------------------*\
     #PAGE
@@ -540,6 +542,10 @@ a {
   a:hover {
     color: #FF6233;
     text-decoration: underline; }
+
+.silent-link {
+  color: #333;
+  text-decoration: none; }
 
 /*------------------------------------*\
     #OBJECTS
