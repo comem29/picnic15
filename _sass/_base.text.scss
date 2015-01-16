@@ -1,0 +1,9 @@
+$small-text-font: "freight-micro-pro";
+$small-text-size: $inuit-base-font-size * 0.75;
+
+small,
+.small,
+%small {
+  font-family: $small-text-font;
+  @include inuit-font-size($small-text-size);
+}

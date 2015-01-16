@@ -456,6 +456,13 @@ html {
   -webkit-font-smoothing: antialiased;
   /* [5] */ }
 
+small,
+.small {
+  font-family: "freight-micro-pro";
+  font-size: 15px;
+  font-size: 0.75rem;
+  line-height: 1.8666666667; }
+
 h1,
 .alpha,
 h2,
