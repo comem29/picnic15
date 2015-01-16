@@ -458,10 +458,13 @@ html {
 
 small,
 .small {
-  font-family: "freight-micro-pro";
+  font-family: "freight-micro-pro", "freight-text-pro", Georgia, serif;
   font-size: 15px;
   font-size: 0.75rem;
   line-height: 1.8666666667; }
+
+.italic {
+  font-style: italic; }
 
 h1,
 .alpha,
