@@ -488,6 +488,14 @@ h6,
   font-size: 0.7rem;
   line-height: 2.1428571429; }
 
+a {
+  color: #333; }
+  a:visited {
+    color: #333; }
+  a:hover {
+    color: #FF6233;
+    text-decoration: underline; }
+
 /*------------------------------------*\
     #OBJECTS
 \*------------------------------------*/
