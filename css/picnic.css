@@ -584,6 +584,34 @@ a {
  * `.(m|p)(t|r|b|l|h|v)(-|+|0) {}` = margin/padding top/right/bottom/left/horizontal/vertical less/more/none
  */
 /**
+ * Padding helper classes.
+ *
+ * Add paddings.
+ */
+.p {
+  padding: 28px !important; }
+
+.pt {
+  padding-top: 28px !important; }
+
+.pr {
+  padding-right: 28px !important; }
+
+.pb {
+  padding-bottom: 28px !important; }
+
+.pl {
+  padding-left: 28px !important; }
+
+.ph {
+  padding-right: 28px !important;
+  padding-left: 28px !important; }
+
+.pv {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important; }
+
+/**
  * Add tiny paddings.
  */
 .p-- {

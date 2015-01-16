@@ -43,5 +43,6 @@ $base-container-width: 750px;
 /*------------------------------------*\
     #TRUMPS
 \*------------------------------------*/
-$inuit-enable-paddings--tiny:           true;
+$inuit-enable-paddings:       true;
+$inuit-enable-paddings--tiny: true;
 @import "../bower_components/inuit-spacing/trumps.spacing";
