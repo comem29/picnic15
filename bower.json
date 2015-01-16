@@ -23,6 +23,7 @@
     "inuit-normalize": "~3.0.1",
     "inuit-box-sizing": "~0.2.0",
     "inuit-page": "~0.2.1",
-    "inuit-headings": "~0.2.2"
+    "inuit-headings": "~0.2.2",
+    "inuit-shared": "~0.1.3"
   }
 }
