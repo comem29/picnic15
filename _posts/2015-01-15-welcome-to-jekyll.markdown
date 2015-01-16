@@ -6,7 +6,7 @@ categories: organisation
 ---
 Si vous désirez participer à l'organisation de ce pique-nique, il n'y a rien de plus simple.
 
-- [Créez un compte GitHub](https://github.com/) (si vous n'en possédez pas déjà un)
-- Participez [aux conversations](https://github.com/comem29/picnic15/issues)
+1. [Créez un compte GitHub](https://github.com/) (si vous n'en possédez pas déjà un)
+1. Participez [aux conversations](https://github.com/comem29/picnic15/issues)
 
 Nous utilisons GitHub, car cela permet d'avoir un système de gestion de tâches à moindres frais (gratuit).
