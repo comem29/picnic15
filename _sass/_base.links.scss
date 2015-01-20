@@ -1,0 +1,19 @@
+$base-link-color: #333 !default;
+$base-link-color-hover: #FF6233 !default;
+
+a {
+  color: $base-link-color;
+
+  &:visited {
+    color: $base-link-color;
+  }
+  &:hover {
+    color: $base-link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.silent-link {
+  color: $base-link-color;
+  text-decoration: none;
+}
