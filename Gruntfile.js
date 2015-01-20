@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'expanded'
+          style: 'compressed'
         },
         files: {
           'css/picnic.css': '_sass/picnic.scss'
