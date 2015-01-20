@@ -1,21 +1,78 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Picnic15</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/picnic15/css/picnic.css">
+  <link rel="canonical" href="https://comem29.github.io/picnic15/">
+  <link rel="alternate" type="application/atom+xml" title="Picnic15" href="https://comem29.github.io/picnic15/feed.xml" />
+
+  <script src="//use.typekit.net/ctm5voh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+  <body>
+
+    <header class="container">
+  <h1><a class="silent-link" href="/picnic15/">Picnic15</a></h1>
+</header>
+
+
+    <div class="container">
+      <div class="home">
 
   <p>Après 11 ans, il est temps de se retrouvez. Et si on organisait un pique-nique des anciens <strong>comem29</strong> ?</p>
 
   <h2>Nouvelles</h2>
 
   <ul class="list-bare">
-    {% for post in site.posts %}
+    
       <li class="mb">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>, {{ post.date | date: "%b %-d, %Y" }}</small>
+          <a href="/picnic15/organisation/2015/01/16/welcome-to-jekyll.html">Comment participer à l'organisation ?</a><small>, Jan 16, 2015</small>
       </li>
-    {% endfor %}
+    
   </ul>
 
-  <p class="small">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="small">subscribe <a href="/picnic15/feed.xml">via RSS</a></p>
 
 </div>
+
+    </div>
+
+    <footer class="container pb">
+
+  <nav>
+    <ul class="list-inline small">
+      <li>
+        <a href="/picnic15/">Accueil</a>
+      </li>
+      
+      
+      <li>
+        <a class="p--" href="/picnic15/about/">À propos</a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </nav>
+
+</footer>
+
+
+  </body>
+
+</html>
