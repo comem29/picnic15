@@ -34,4 +34,4 @@ Comment installer le site en local
 Deploy
 
 1. `grunt deploy`
-1. go to `[comem29.github.io/picnic15/](http://comem29.github.io/picnic15/)`
+1. go to [`comem29.github.io/picnic15/'](http://comem29.github.io/picnic15/)
