@@ -11,8 +11,7 @@ Et si on se faisait un pique-nique familiale entre anciens comem29 ?
 Le but est de se retrouver dans un esprit bon enfant accompagné de nos familles.
 
 - **Date**: à détérminer
-  - :point_right: Merci de remplir le [doodle](http://doodle.com/y8cqafmtcrxgpe5g) :point_left:
-  - [discussion](https://github.com/comem29/picnic15/issues/1)
+  - [discussion](https://github.com/comem29/picnic15/issues/1) 
 - **Lieu**: à détérminer
   - [discussion](https://github.com/comem29/picnic15/issues/2)
 
