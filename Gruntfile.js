@@ -12,13 +12,23 @@ module.exports = function(grunt) {
           'css/picnic.css': '_sass/picnic.scss'
         }
       }
+    },
+    'gh-pages': {
+      options: {
+        base: '.'
+      },
+      src: ['**']
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
+  // Load the plugin that provides the "sass" task.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  // Load the plugin that provides the "gh-pages" task.
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   // Default task(s).
   grunt.registerTask('default', ['sass']);
+  // Deploy
+  grunt.registerTask('deploy', ['sass', 'gh-pages']);
 
 };
