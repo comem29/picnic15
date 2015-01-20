@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <p>Après 11 ans, il est temps de se retrouvez. Et si on organisait un pique-nique des anciens <strong>comem29</strong> ?</p>
+
+  <h2>Nouvelles</h2>
+
+  <ul class="list-bare">
+    {% for post in site.posts %}
+      <li class="mb">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>, {{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="small">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
