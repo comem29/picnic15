@@ -27,9 +27,9 @@ Si vous désirez participer participer à l'organisation, voici comment faire:
 
 Comment installer le site en local
 
-1. '$ gem install jekyll'
-1. '$ bower install'
-1. '$ npm install'
+1. `$ gem install jekyll`
+1. `$ bower install`
+1. `$ npm install`
 
 Deploy
 
