@@ -1,20 +1,25 @@
----
----
-
-// SETTINGS
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
 @import "settings.picnic";
 @import "../bower_components/inuit-defaults/settings.defaults";
 
-// TOOLS
+/*------------------------------------*\
+    #TOOLS
+\*------------------------------------*/
 @import "../bower_components/inuit-functions/tools.functions";
 @import "../bower_components/inuit-mixins/tools.mixins";
 
-// GENERIC
+/*------------------------------------*\
+    #GENERIC
+\*------------------------------------*/
 @import "../bower_components/inuit-normalize/generic.normalize";
 @import "../bower_components/inuit-box-sizing/generic.box-sizing";
 @import "../bower_components/inuit-shared/generic.shared";
 
-// BASE
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
 @import "base.page";
 @import "../bower_components/inuit-page/base.page";
 @import "base.text";
@@ -23,16 +28,22 @@
 @import "../bower_components/inuit-lists/base.lists";
 @import "base.links";
 
-// OBJECTS
+/*------------------------------------*\
+    #OBJECTS
+\*------------------------------------*/
 @import "../bower_components/inuit-list-inline/objects.list-inline";
 @import "../bower_components/inuit-list-bare/objects.list-bare";
 
 
-// COMPONMENT
+/*------------------------------------*\
+    #COMPONMENT
+\*------------------------------------*/
 $base-container-width: 750px;
 @import "componment.structures";
 
-// TRUMPS
+/*------------------------------------*\
+    #TRUMPS
+\*------------------------------------*/
 $inuit-enable-paddings:       true;
 $inuit-enable-paddings--tiny: true;
 $inuit-enable-margins:        true;

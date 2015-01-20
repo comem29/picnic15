@@ -1,0 +1,26 @@
+{
+  "name": "picnic15",
+  "version": "0.0.0",
+  "description": "picnic15 website source",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://alienlebarge@github.com/comem29/picnic15.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Cédric Aellen",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/comem29/picnic15/issues"
+  },
+  "homepage": "https://github.com/comem29/picnic15",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.8.1"
+  }
+}
