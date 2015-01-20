@@ -32,6 +32,7 @@
     #OBJECTS
 \*------------------------------------*/
 @import "../bower_components/inuit-list-inline/objects.list-inline";
+@import "../bower_components/inuit-list-bare/objects.list-bare";
 
 
 /*------------------------------------*\
@@ -45,4 +46,5 @@ $base-container-width: 750px;
 \*------------------------------------*/
 $inuit-enable-paddings:       true;
 $inuit-enable-paddings--tiny: true;
+$inuit-enable-margins:        true;
 @import "../bower_components/inuit-spacing/trumps.spacing";
