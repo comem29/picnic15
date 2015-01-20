@@ -27,8 +27,11 @@ Si vous désirez participer participer à l'organisation, voici comment faire:
 
 Comment installer le site en local
 
-1. [Install Sass](http://sass-lang.com/install) `$ gem install sass`
-1. [Install Jekyll](http://jekyllrb.com/docs/installation/) `$ gem install jekyll`
-1. Créer un dossier
-1. Cloner le repository `$ git clone https://github.com/comem29/picnic15.git`
-1. Executer Jekyll `$ jekyll serve`
+1. `$ gem install jekyll`
+1. `$ bower install`
+1. `$ npm install`
+
+Deploy
+
+1. `$ grunt deploy`
+1. go to [`comem29.github.io/picnic15/`](http://comem29.github.io/picnic15/)

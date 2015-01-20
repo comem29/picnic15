@@ -22,7 +22,6 @@ module.exports = function(grunt) {
       },
       serve: {                            // Another target
         options: {
-          dest: '.jekyll',
           drafts: true
         }
       }
@@ -43,7 +42,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'jekyll:serve']);
   // Deploy
   grunt.registerTask('deploy', ['sass', 'jekyll:dist', 'gh-pages']);
 
