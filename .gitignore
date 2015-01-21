@@ -3,4 +3,5 @@ _site
 bower_components
 node_modules
 .grunt
-dist
+*.css
+*.css.map
