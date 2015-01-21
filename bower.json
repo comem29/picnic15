@@ -28,6 +28,7 @@
     "inuit-lists": "~0.1.0",
     "inuit-list-inline": "~0.3.2",
     "inuit-spacing": "~0.6.2",
-    "inuit-list-bare": "~0.3.0"
+    "inuit-list-bare": "~0.3.0",
+    "inuit-images": "~0.3.3"
   }
 }
