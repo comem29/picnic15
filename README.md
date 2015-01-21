@@ -1,6 +1,6 @@
 # Pique-nique comem+29
 
-S'il vous plaît, vistiter la page **[comem29.github.io/picnic15/](http://comem29.github.io/picnic15/)**.
+S'il vous plaît, vistitez la page [comem29.github.io/picnic15/](http://comem29.github.io/picnic15/).
 
 ## Technique
 

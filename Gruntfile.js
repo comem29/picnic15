@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 
     'gh-pages': {
       options: {
-        base: './dist'
+        base: './_site'
       },
       src: ['**']
     }
