@@ -5,6 +5,7 @@ description: Comem29 alumni picnic
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 exclude: [bower_components,node_modules]
+permalink: /:year/:month/:day/:title
 
 # Build settings
 markdown: kramdown
