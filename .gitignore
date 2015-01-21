@@ -21,7 +21,7 @@ ehthumbs.db
 Thumbs.db
 
 # Ignore Sass' cache
-/.sass-cache
+**.sass-cache**
 
 # Ignore CSS & Map File
 *.css
