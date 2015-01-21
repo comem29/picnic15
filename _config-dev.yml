@@ -1,0 +1,10 @@
+# Site settings
+title: Picnic15
+email: your-email@domain.com
+description: Comem29 alumni picnic
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+exclude: [bower_components,node_modules]
+
+# Build settings
+markdown: kramdown
