@@ -1,7 +1,28 @@
+# Jekyll build folder
 _site
-.sass-cache
+
+# Bower.io components
 bower_components
+
+# NodeJS modules
 node_modules
+
+# GruntJS files
 .grunt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Ignore Sass' cache
+/.sass-cache
+
+# Ignore CSS & Map File
 *.css
-*.css.map
+*.map
