@@ -12,7 +12,7 @@ layout: default
   <ul class="list-bare">
     {% for post in site.posts %}
       <li class="mb">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>, {{ post.date | date: "%b %-d, %Y" }}</small>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>, {{ post.date | date: "%-d %b. %Y" }}</small>
       </li>
     {% endfor %}
   </ul>
