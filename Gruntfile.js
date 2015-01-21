@@ -12,7 +12,28 @@ module.exports = function(grunt) {
         files: {
           'css/picnic.css': '_sass/picnic.scss'
         }
-      }
+      },
+      dev: {
+        options: {
+          style: 'compressed'
+        },
+        files: {
+          'css/picnic.min.css': '_sass/picnic.scss'
+        }
+      },
+    },
+
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 versions', 'ie 8', 'ie 9'],
+        map: true
+      },
+      dist: {
+        src: 'css/picnic.min.css'
+      },
+      dev: {
+        src: 'css/picnic.css'
+      },
     },
 
     jekyll: {                             // Task
@@ -36,7 +57,7 @@ module.exports = function(grunt) {
         tasks: ['sass']
       },
       jekyll: {
-        files: ['index.html', '_layouts/*.html', '_includes/*.html', 'css/*.css'],
+        files: ['index.html', '_layouts/*.html', '_includes/*.html', '_posts/*.*', 'css/*.css'],
         tasks: ['jekyll:dev']
       }
     },
@@ -68,22 +89,19 @@ module.exports = function(grunt) {
 
   });
 
-  // Load the plugin that provides the "sass" task.
+  // Load plugins tasks.
   grunt.loadNpmTasks('grunt-contrib-sass');
-  // Load the plugin that provides the "jekyll" task.
+  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-jekyll');
-  // Load the plugin that provides the "watch" task.
   grunt.loadNpmTasks('grunt-contrib-watch');
-  // Load the plugin that provides the "browser_sync" task.
   grunt.loadNpmTasks('grunt-browser-sync');
-  // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Default task(s).
   grunt.registerTask('default', ['jekyll:dev', 'browserSync', 'watch']);
   // Build
-  grunt.registerTask('build', ['sass', 'jekyll:dev']);
+  grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll:dev']);
   // Deploy
-  grunt.registerTask('deploy', ['sass', 'jekyll:dist', 'gh-pages']);
+  grunt.registerTask('deploy', ['sass', 'autoprefixer', 'jekyll:dist', 'gh-pages']);
 
 };
