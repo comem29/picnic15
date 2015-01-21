@@ -10,7 +10,17 @@ S'il vous plaît, vistiter la page **[comem29.github.io/picnic15/](http://comem2
 1. `$ bower install`
 1. `$ npm install`
 
-### Déploiment 
+### Développement
+
+#### Développement continue
+
+1. `$ grunt`
+
+#### Build du site
+
+1. `$ grunt build`
+
+### Déploiment
 
 1. `$ grunt deploy`
 1. go to [`comem29.github.io/picnic15/`](http://comem29.github.io/picnic15/)
