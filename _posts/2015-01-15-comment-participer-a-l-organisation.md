@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Comment participer à l'organisation ?"
+author: Cédric Aellen
 date:   2015-01-16 08:44:50
 categories: organisation
 ---

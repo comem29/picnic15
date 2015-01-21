@@ -4,7 +4,7 @@ layout: default
 <article>
   <header>
     <h2>{{ page.title }}</h2>
-    <p class="italic">{{ page.date | date: "%-d %b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="italic small">{{ page.date | date: "%-d %b %Y" }}{% if page.author %} &dash; {{ page.author }}{% endif %}{% if page.meta %} &dash; {{ page.meta }}{% endif %}</p>
   </header>
 
   {{ content }}
