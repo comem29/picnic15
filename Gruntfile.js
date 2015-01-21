@@ -26,6 +26,23 @@ module.exports = function(grunt) {
         }
       }
     },
+    browser_sync: {
+      files: {
+        src : ['_site/css/*.css']
+      },
+      options: {
+        watchTask: true,
+        ghostMode: {
+          clicks: true,
+          scroll: true,
+          links: true,
+          forms: true
+        },
+        server: {
+          baseDir: '_site'
+        }
+      }
+    },
     'gh-pages': {
       options: {
         base: './dist'
@@ -38,6 +55,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "jekyll" task.
   grunt.loadNpmTasks('grunt-jekyll');
+  // Load the plugin that provides the "browser_sync" task.
+  grunt.loadNpmTasks('grunt-browser-sync');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
 
